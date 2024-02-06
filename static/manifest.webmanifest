@@ -1,0 +1,11 @@
+{
+	"name": "kit-grow-kit",
+	"icons": [
+		{
+			"src": "/favicon-192x192.1.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{ "src": "/favicon-512x512.1.png", "type": "image/png", "sizes": "512x512" }
+	]
+}

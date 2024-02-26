@@ -1,3 +1,7 @@
+<script>
+	import '../app.css';
+</script>
+
 <header>
 	<a href="/">home</a>
 </header>

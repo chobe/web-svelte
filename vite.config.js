@@ -5,6 +5,10 @@ import browserslist from 'browserslist';
 import { browserslistToTargets } from 'lightningcss';
 
 export default defineConfig({
+	define: {
+		'process.env.VITE_BUILD_TIME': JSON.stringify(new Date().toISOString())
+	},
+
 	assetsInclude: ['**/*.vtt'],
 
 	logLevel: 'info',
@@ -15,6 +19,7 @@ export default defineConfig({
 			targets: browserslistToTargets(browserslist())
 		}
 	},
+
 	build: {
 		cssMinify: 'lightningcss'
 	},
@@ -23,6 +28,7 @@ export default defineConfig({
 	ssr: {
 		noExternal: ['@sveltejs/site-kit']
 	},
+
 	optimizeDeps: {
 		exclude: ['@sveltejs/site-kit']
 	},

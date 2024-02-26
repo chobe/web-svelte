@@ -11,12 +11,41 @@
 	<a href="/survey/encuentra-tu-plan">Cómo comprar</a>
 </section>
 
-<div class="how-to-by">
-	<h2>Cómo comprar</h2>
-	<ol>
-		<li>Selecciona el producto</li>
-		<li>Selecciona la cantidad</li>
-		<li>Selecciona el método de pago</li>
-		<li>Selecciona el método de envío</li>
-	</ol>
-</div>
+<section class="how-to-by">
+	<h2>Pasos para comprar</h2>
+
+	<div class="card">
+		<h3>paso 1</h3>
+		<p>Descripcion del paso 1</p>
+	</div>
+
+	<div class="card">
+		<h3>paso 1</h3>
+		<p>Descripcion del paso 1</p>
+	</div>
+
+	<div class="card">
+		<h3>paso 1</h3>
+		<p>Descripcion del paso 1</p>
+	</div>
+</section>
+
+<section>
+	<h2>Beneficios del producto</h2>
+	<div class="card">
+		<h3>paso 1</h3>
+		<p>Descripcion del paso 1</p>
+	</div>
+
+	<div class="card">
+		<h3>paso 1</h3>
+		<p>Descripcion del paso 1</p>
+	</div>
+
+	<div class="card">
+		<h3>paso 1</h3>
+		<p>Descripcion del paso 1</p>
+	</div>
+</section>
+
+<section></section>

@@ -34,7 +34,7 @@
     height: 100%;
   text-rendering: optimizespeed;
   -webkit-font-smoothing: antialiased; /* 3 */
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; /* 3 */
   }
   
   /* Sections
